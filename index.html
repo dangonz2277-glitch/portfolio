@@ -1,83 +1,200 @@
 <!DOCTYPE html>
 
 <html lang="es">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Daniel Pérez Arandia</title>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="style.css" rel="stylesheet"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <title>Daniel Pérez Arandia</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
 </head>
+
 <body>
-<canvas id="bg"></canvas><div id="grain"></div>
-<nav>
-<span class="logo">~/portfolio $</span>
-<button class="on tab" data-i18n="nav1">01_sobre_mi</button>
-<button class="tab" data-i18n="nav2">02_diseño</button>
-<button class="tab" data-i18n="nav3">03_web</button>
-<button class="tab" data-i18n="nav4">04_redes</button>
-<button aria-label="Language" class="lang" id="lang">ES</button></nav>
-<main>
-<section class="on">
-<p class="tag rv" data-i18n="s1_tag1" style="--i:0"><b>const</b> dev = <b>"Informático"</b>;</p>
-<h1 class="rv" data-i18n="s1_titulo2" style="--i:1">DANIEL<br/>PÉREZ<br/>ARANDIA<span class="cur"></span></h1>
-<p class="lead rv" data-i18n="s1_texto3" style="--i:2">Informático (último año, UMSA) · Desarrollador de software y arquitectura de sistemas. Bilingüe, galardonado "Teacher de Oro" 2026. Cofundador de proyectos digitales con foco en liderazgo, marketing y ventas.</p>
-<div class="stats rv" style="--i:3"><span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>Java</span><span>C#</span><span>SQL</span></div>
-<div class="stats rv" style="--i:4"><span>PostgreSQL</span><span>Oracle 10g</span><span>Git</span><span>Android Studio</span><span>Figma</span><span>Photoshop</span><span>Lightroom</span><span>Fotografía</span><span>FL Studio</span></div>
-<div class="stats rv" style="--i:5"><span data-i18n="s1_idioma4">Español · nativo</span><span data-i18n="s1_idioma5">Inglés · avanzado</span><span data-i18n="s1_idioma6">Italiano · básico</span></div>
-<h3 class="sub rv" data-i18n="s1_sub7" style="--i:6">experiencia</h3>
-<div class="list rv" style="--i:7">
-<div class="row"><span class="d" data-i18n="s1_fecha8">Sep 2025 — Presente</span><div><b data-i18n="s1_cargo9">Prof. de Inglés</b><small data-i18n="s1_lugar10">Grupo Elite (ex Benjamin Franklin Institute) · La Paz</small><p data-i18n="s1_desc11">Speaking, inglés técnico para programación y gestión de grupos.</p></div></div>
-<div class="row"><span class="d" data-i18n="s1_fecha12">Jul — Ago 2025</span><div><b data-i18n="s1_cargo13">Coord. Web / Pasante</b><small data-i18n="s1_lugar14">BITS · Boliviana de Innovación Tecnológica Satelital</small><p data-i18n="s1_desc15">Coordinación de proyectos web, requerimientos con clientes, análisis UI/UX y contenidos institucionales.</p></div></div>
-<div class="row"><span class="d" data-i18n="s1_fecha16">Ago 2024 — Jul 2025</span><div><b data-i18n="s1_cargo17">Cofundador &amp; Dir. Digital</b><small data-i18n="s1_lugar18">GANXZ · La Paz</small><p data-i18n="s1_desc19">Identidad visual, marketing digital, atención al cliente y ventas online.</p></div></div>
-<div class="row"><span class="d" data-i18n="s1_fecha20">2024 · 2025</span><div><b data-i18n="s1_cargo21">Tutor / Actor de Reality Show</b><small data-i18n="s1_lugar22">Benjamin Franklin Institute · La Paz</small><p data-i18n="s1_desc23">Tutoría de inglés técnico y contenido audiovisual de alto alcance.</p></div></div>
-</div>
-<h3 class="sub rv" data-i18n="s1_sub24" style="--i:8">educación y premios</h3>
-<div class="list rv" style="--i:9">
-<div class="row"><span class="d" data-i18n="s1_fecha25">Último año</span><div><b data-i18n="s1_cargo26">Lic. en Informática</b><small data-i18n="s1_lugar27">Universidad Mayor de San Andrés (UMSA)</small><p></p></div></div>
-<div class="row"><span class="d" data-i18n="s1_fecha28">2016</span><div><b data-i18n="s1_cargo29">Bachiller en Humanidades</b><small data-i18n="s1_lugar30">Colegio San Antonio de Padua</small><p></p></div></div>
-<div class="row"><span class="d" data-i18n="s1_fecha31">Feb 2026</span><div><b data-i18n="s1_cargo32">Teacher de Oro</b><small data-i18n="s1_lugar33">Grupo Elite</small><p data-i18n="s1_desc34">Excelencia en la enseñanza.</p></div></div>
-</div>
-</section>
-<section>
-<p class="tag rv" data-i18n="s2_tag1" style="--i:0"><b>import</b> diseño <b>from</b> "./grafico";</p>
-<h2 class="rv" data-i18n="s2_titulo2" style="--i:1">DISEÑO<br/>GRÁFICO<span class="cur"></span></h2>
-<div class="grid">
-<div class="card rv" style="--i:2"><div class="ph">logo_01.jpg</div><div class="cap"><span data-i18n="s2_nombre3">Logo Empresa A</span><small data-i18n="s2_sub4">Branding</small></div></div>
-<div class="card rv" style="--i:3"><div class="ph">logo_02.jpg</div><div class="cap"><span data-i18n="s2_nombre5">Logo Empresa B</span><small data-i18n="s2_sub6">Identidad</small></div></div>
-<div class="card rv" style="--i:4"><div class="ph">logo_03.jpg</div><div class="cap"><span data-i18n="s2_nombre7">Poster</span><small data-i18n="s2_sub8">Print</small></div></div>
-<div class="card rv" style="--i:5"><div class="ph">logo_04.jpg</div><div class="cap"><span data-i18n="s2_nombre9">Packaging</span><small data-i18n="s2_sub10">Producto</small></div></div>
-</div>
-</section>
-<section>
-<p class="tag rv" data-i18n="s3_tag1" style="--i:0"><b>fetch</b>("/proyectos/web");</p>
-<h2 class="rv" data-i18n="s3_titulo2" style="--i:1">PÁGINAS<br/>WEB<span class="cur"></span></h2>
-<div class="grid">
-<a class="card rv" href="#" style="--i:2"><div class="ph">cerveceria.jpg</div><div class="cap"><span data-i18n="s3_nombre3">Cervecería Artesanal</span><small data-i18n="s3_sub4">HTML · CSS · JS · galería y formularios</small></div></a>
-<a class="card rv" href="#" style="--i:3"><div class="ph">joyeria.jpg</div><div class="cap"><span data-i18n="s3_nombre5">Joyería</span><small data-i18n="s3_sub6">UI/UX · catálogo con cotización · SEO</small></div></a>
-<a class="card rv" href="#" style="--i:4"><div class="ph">radio.jpg</div><div class="cap"><span data-i18n="s3_nombre7">Estación de Radio</span><small data-i18n="s3_sub8">Responsive · audio en vivo · programación</small></div></a>
-</div>
-<h3 class="sub rv" data-i18n="s3_sub9" style="--i:5">otros proyectos</h3>
-<div class="list rv" style="--i:6">
-<div class="row"><span class="d" data-i18n="s3_fecha10">Base de datos</span><div><b data-i18n="s3_cargo11">Elecciones Subnacionales</b><small data-i18n="s3_lugar12">SQL · Modelado ER</small><p data-i18n="s3_desc13">Normalización y consultas SQL complejas.</p></div></div>
-<div class="row"><span class="d" data-i18n="s3_fecha14">Android nativo</span><div><b data-i18n="s3_cargo15">App Parques Nacionales</b><small data-i18n="s3_lugar16">Java · JSON</small><p data-i18n="s3_desc17">Mapas interactivos.</p></div></div>
-<div class="row"><span class="d" data-i18n="s3_fecha18">Móvil</span><div><b data-i18n="s3_cargo19">App Viajes Interdepartamentales</b><small data-i18n="s3_lugar20">Rutas · precios</small><p data-i18n="s3_desc21">Buscador de origen y destino.</p></div></div>
-</div>
-</section>
-<section>
-<p class="tag rv" data-i18n="s4_tag1" style="--i:0"><b>export</b> default redes;</p>
-<h2 class="rv" data-i18n="s4_titulo2" style="--i:1">REDES<span class="cur"></span></h2>
-<div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
-<a class="card rv" href="https://www.instagram.com/by.arandia/" style="--i:2" target="_blank"><div class="ph">retrato_01.jpg</div><div class="cap">@by.arandia<small data-i18n="s4_sub3">Instagram profesional · retratos y modelaje</small></div></a>
-<a class="card rv" href="https://www.instagram.com/perez_arandia/" style="--i:3" target="_blank"><div class="ph">foto_01.jpg</div><div class="cap">@perez_arandia<small data-i18n="s4_sub4">Instagram personal · fotografía</small></div></a>
-<a class="card rv" href="https://instagram.com/GANXZ1212" style="--i:4" target="_blank"><div class="ph">ganxz.jpg</div><div class="cap">@GANXZ1212<small data-i18n="s4_sub5">Instagram · GANXZ, empresa cofundada</small></div></a>
-<a class="card rv" href="https://www.linkedin.com/in/daniel-perez-50bb01171" style="--i:5" target="_blank"><div class="ph">linkedin.jpg</div><div class="cap">LinkedIn<small data-i18n="s4_sub6">Daniel Pérez</small></div></a>
-<a class="card rv" href="mailto:by.arandia27@gmail.com" style="--i:6"><div class="ph">mail.jpg</div><div class="cap">by.arandia27@gmail.com<small data-i18n="s4_sub7">Correo</small></div></a>
-<a class="card rv" href="https://wa.me/59175847572" style="--i:7" target="_blank"><div class="ph">whatsapp.jpg</div><div class="cap">+591 75847572<small data-i18n="s4_sub8">WhatsApp · La Paz, Bolivia</small></div></a>
-</div>
-</section>
-</main>
-<footer data-i18n="footer">© 2026 Daniel Pérez Arandia · La Paz, Bolivia</footer>
-<script src="script.js"></script>
+    <canvas id="bg"></canvas>
+    <div id="grain"></div>
+    <nav>
+        <span class="logo">~/portfolio $</span>
+        <button class="on tab" data-i18n="nav1">01_sobre_mi</button>
+        <button class="tab" data-i18n="nav2">02_diseño</button>
+        <button class="tab" data-i18n="nav3">03_web</button>
+        <button class="tab" data-i18n="nav4">04_redes</button>
+        <button aria-label="Language" class="lang" id="lang">ES</button>
+    </nav>
+    <main>
+        <section class="on">
+            <p class="tag rv" data-i18n="s1_tag1" style="--i:0"><b>const</b> dev = <b>"Informático"</b>;</p>
+            <h1 class="rv" data-i18n="s1_titulo2" style="--i:1">DANIEL<br />PÉREZ<br />ARANDIA<span class="cur"></span>
+            </h1>
+            <p class="lead rv" data-i18n="s1_texto3" style="--i:2">Informático · Desarrollador de software y
+                arquitectura de sistemas. Bilingüe, galardonado "Teacher de Oro" 2026. Cofundador de proyectos digitales
+                con foco en liderazgo, marketing y ventas.</p>
+            <div class="stats rv" style="--i:3">
+                <span>Python</span><span>JavaScript</span><span>HTML/CSS</span><span>Java</span><span>C#</span><span>SQL</span>
+            </div>
+            <div class="stats rv" style="--i:4"><span>PostgreSQL</span><span>Oracle
+                    10g</span><span>Git</span><span>Android
+                    Studio</span><span>Figma</span><span>Photoshop</span><span>Lightroom</span><span>Fotografía</span><span>FL
+                    Studio</span></div>
+            <div class="stats rv" style="--i:5"><span data-i18n="s1_idioma4">Español · nativo</span><span
+                    data-i18n="s1_idioma5">Inglés · avanzado</span><span data-i18n="s1_idioma6">Italiano · básico</span>
+            </div>
+            <h3 class="sub rv" data-i18n="s1_sub7" style="--i:6">experiencia</h3>
+            <div class="list rv" style="--i:7">
+                <div class="row"><span class="d" data-i18n="s1_fecha8">Sep 2025 — Presente</span>
+                    <div><b data-i18n="s1_cargo9">Prof. de Inglés</b><small data-i18n="s1_lugar10">Grupo Elite (ex
+                            Benjamin Franklin Institute) · La Paz</small>
+                        <p data-i18n="s1_desc11">Speaking, inglés técnico para programación y gestión de grupos.</p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s1_fecha12">Jul — Ago 2025</span>
+                    <div><b data-i18n="s1_cargo13">Coord. Web / Pasante</b><small data-i18n="s1_lugar14">BITS ·
+                            Boliviana de Innovación Tecnológica Satelital</small>
+                        <p data-i18n="s1_desc15">Coordinación de proyectos web, requerimientos con clientes, análisis
+                            UI/UX y contenidos institucionales.</p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s1_fecha16">Ago 2024 — Jul 2025</span>
+                    <div><b data-i18n="s1_cargo17">Cofundador &amp; Dir. Digital</b><small data-i18n="s1_lugar18">GANXZ
+                            · La Paz</small>
+                        <p data-i18n="s1_desc19">Identidad visual, marketing digital, atención al cliente y ventas
+                            online.</p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s1_fecha20">2024 · 2025</span>
+                    <div><b data-i18n="s1_cargo21">Tutor / Actor de Reality Show</b><small
+                            data-i18n="s1_lugar22">Benjamin Franklin Institute · La Paz</small>
+                        <p data-i18n="s1_desc23">Tutoría de inglés técnico y contenido audiovisual de alto alcance.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="sub rv" data-i18n="s1_sub24" style="--i:8">educación y premios</h3>
+            <div class="list rv" style="--i:9">
+                <div class="row"><span class="d" data-i18n="s1_fecha25">Último año</span>
+                    <div><b data-i18n="s1_cargo26">Lic. en Informática</b><small data-i18n="s1_lugar27">Universidad
+                            Mayor de San Andrés (UMSA)</small>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s1_fecha28">2016</span>
+                    <div><b data-i18n="s1_cargo29">Bachiller en Humanidades</b><small data-i18n="s1_lugar30">Colegio San
+                            Antonio de Padua</small>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s1_fecha31">Feb 2026</span>
+                    <div><b data-i18n="s1_cargo32">Teacher de Oro</b><small data-i18n="s1_lugar33">Grupo Elite</small>
+                        <p data-i18n="s1_desc34">Excelencia en la enseñanza.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="tag rv" data-i18n="s2_tag1" style="--i:0"><b>import</b> diseño <b>from</b> "./grafico";</p>
+            <h2 class="rv" data-i18n="s2_titulo2" style="--i:1">DISEÑO<br />GRÁFICO<span class="cur"></span></h2>
+            <div class="grid">
+                <div class="card rv" style="--i:2">
+                    <div class="ph">logo_01.jpg</div>
+                    <div class="cap"><span data-i18n="s2_nombre3">Logo Empresa A</span><small
+                            data-i18n="s2_sub4">Branding</small></div>
+                </div>
+                <div class="card rv" style="--i:3">
+                    <div class="ph">logo_02.jpg</div>
+                    <div class="cap"><span data-i18n="s2_nombre5">Logo Empresa B</span><small
+                            data-i18n="s2_sub6">Identidad</small></div>
+                </div>
+                <div class="card rv" style="--i:4">
+                    <div class="ph">logo_03.jpg</div>
+                    <div class="cap"><span data-i18n="s2_nombre7">Poster</span><small data-i18n="s2_sub8">Print</small>
+                    </div>
+                </div>
+                <div class="card rv" style="--i:5">
+                    <div class="ph">logo_04.jpg</div>
+                    <div class="cap"><span data-i18n="s2_nombre9">Packaging</span><small
+                            data-i18n="s2_sub10">Producto</small></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="tag rv" data-i18n="s3_tag1" style="--i:0"><b>fetch</b>("/proyectos/web");</p>
+            <h2 class="rv" data-i18n="s3_titulo2" style="--i:1">PÁGINAS<br />WEB<span class="cur"></span></h2>
+            <div class="grid">
+                <a class="card rv" href="#" style="--i:2">
+                    <div class="ph">cerveceria.jpg</div>
+                    <div class="cap"><span data-i18n="s3_nombre3">Cervecería Artesanal</span><small
+                            data-i18n="s3_sub4">HTML · CSS · JS · galería y formularios</small></div>
+                </a>
+                <a class="card rv" href="#" style="--i:3">
+                    <div class="ph">joyeria.jpg</div>
+                    <div class="cap"><span data-i18n="s3_nombre5">Joyería</span><small data-i18n="s3_sub6">UI/UX ·
+                            catálogo con cotización · SEO</small></div>
+                </a>
+                <a class="card rv" href="#" style="--i:4">
+                    <div class="ph">radio.jpg</div>
+                    <div class="cap"><span data-i18n="s3_nombre7">Estación de Radio</span><small
+                            data-i18n="s3_sub8">Responsive · audio en vivo · programación</small></div>
+                </a>
+            </div>
+            <h3 class="sub rv" data-i18n="s3_sub9" style="--i:5">otros proyectos</h3>
+            <div class="list rv" style="--i:6">
+                <div class="row"><span class="d" data-i18n="s3_fecha10">Base de datos</span>
+                    <div><b data-i18n="s3_cargo11">Elecciones Subnacionales</b><small data-i18n="s3_lugar12">SQL ·
+                            Modelado ER</small>
+                        <p data-i18n="s3_desc13">Normalización y consultas SQL complejas.</p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s3_fecha14">Android nativo</span>
+                    <div><b data-i18n="s3_cargo15">App Parques Nacionales</b><small data-i18n="s3_lugar16">Java ·
+                            JSON</small>
+                        <p data-i18n="s3_desc17">Mapas interactivos.</p>
+                    </div>
+                </div>
+                <div class="row"><span class="d" data-i18n="s3_fecha18">Móvil</span>
+                    <div><b data-i18n="s3_cargo19">App Viajes Interdepartamentales</b><small
+                            data-i18n="s3_lugar20">Rutas · precios</small>
+                        <p data-i18n="s3_desc21">Buscador de origen y destino.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="tag rv" data-i18n="s4_tag1" style="--i:0"><b>export</b> default redes;</p>
+            <h2 class="rv" data-i18n="s4_titulo2" style="--i:1">REDES<span class="cur"></span></h2>
+            <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(240px,1fr))">
+                <a class="card rv" href="https://www.instagram.com/by.arandia/" style="--i:2" target="_blank">
+                    <div class="ph">retrato_01.jpg</div>
+                    <div class="cap">@by.arandia<small data-i18n="s4_sub3">Instagram profesional · retratos y
+                            modelaje</small></div>
+                </a>
+                <a class="card rv" href="https://www.instagram.com/perez_arandia/" style="--i:3" target="_blank">
+                    <div class="ph">foto_01.jpg</div>
+                    <div class="cap">@perez_arandia<small data-i18n="s4_sub4">Instagram personal · fotografía</small>
+                    </div>
+                </a>
+                <a class="card rv" href="https://instagram.com/GANXZ1212" style="--i:4" target="_blank">
+                    <div class="ph">ganxz.jpg</div>
+                    <div class="cap">@GANXZ1212<small data-i18n="s4_sub5">Instagram · GANXZ, empresa cofundada</small>
+                    </div>
+                </a>
+                <a class="card rv" href="https://www.linkedin.com/in/daniel-perez-50bb01171" style="--i:5"
+                    target="_blank">
+                    <div class="ph">linkedin.jpg</div>
+                    <div class="cap">LinkedIn<small data-i18n="s4_sub6">Daniel Pérez</small></div>
+                </a>
+                <a class="card rv" href="mailto:by.arandia27@gmail.com" style="--i:6">
+                    <div class="ph">mail.jpg</div>
+                    <div class="cap">by.arandia27@gmail.com<small data-i18n="s4_sub7">Correo</small></div>
+                </a>
+                <a class="card rv" href="https://wa.me/59175847572" style="--i:7" target="_blank">
+                    <div class="ph">whatsapp.jpg</div>
+                    <div class="cap">+591 75847572<small data-i18n="s4_sub8">WhatsApp · La Paz, Bolivia</small></div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer data-i18n="footer">© 2026 Daniel Pérez Arandia · La Paz, Bolivia</footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
