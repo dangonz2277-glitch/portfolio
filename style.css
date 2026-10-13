@@ -32,7 +32,7 @@ h2{font-size:clamp(2.2rem,8vw,7rem);line-height:.95;font-weight:800;letter-spaci
 .card .cap{position:absolute;left:0;right:0;bottom:0;padding:16px;font-size:13px;background:linear-gradient(transparent,#000d);transform:translateY(8px);transition:.4s}
 .card:hover .cap{transform:none}
 .cap small{display:block;color:var(--dim);margin-top:4px}
-a{color:var(--fg)}
+a{color:var(--fg);text-decoration:none}
 .wip{border:1px dashed #333;padding:28px;max-width:560px;color:var(--dim);line-height:1.8;font-size:14px}
 .wip b{color:var(--fg)}
 @media(max-width:700px){nav{flex-wrap:wrap;padding:12px}nav .logo{width:100%}nav button{padding:6px 9px;font-size:11px}}
