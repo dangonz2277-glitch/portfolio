@@ -1,6 +1,6 @@
-window.LANG=window.LANG||{};
+window.LANG = window.LANG || {};
 /* Base en español. Para inglés: copia este archivo como en.js, cambia LANG.es por LANG.en y traduce solo los valores. */
-LANG.es={
+LANG.es = {
   // navegación
   "nav1": "01_sobre_mi",
   "nav2": "02_diseño",
@@ -9,7 +9,7 @@ LANG.es={
   // sección 1: sobre_mi
   "s1_tag1": "<b>const</b> dev = <b>\"Informático\"</b>;",
   "s1_titulo2": "DANIEL<br/>PÉREZ<br/>ARANDIA<span class=\"cur\"></span>",
-  "s1_texto3": "Informático (último año, UMSA) · Desarrollador de software y arquitectura de sistemas. Bilingüe, galardonado \"Teacher de Oro\" 2026. Cofundador de proyectos digitales con foco en liderazgo, marketing y ventas.",
+  "s1_texto3": "Informático · Desarrollador de software y arquitectura de sistemas. Bilingüe, galardonado \"Teacher de Oro\" 2026. Cofundador de proyectos digitales con foco en liderazgo, marketing y ventas.",
   "s1_idioma4": "Español · nativo",
   "s1_idioma5": "Inglés · avanzado",
   "s1_idioma6": "Italiano · básico",
