@@ -43,7 +43,7 @@ LANG.es = {
   "s1_desc34": "Excelencia en la enseñanza.",
   // sección 2: diseno
   "s2_tag1": "<b>import</b> diseño <b>from</b> \"./grafico\";",
-  "s2_titulo2": "DISEÑO<br/>GRÁFICO<span class=\"cur\"></span>",
+  "s2_titulo2": "DISEÑO<span class=\"cur\"></span>",
   "s2_nombre3": "Logo Empresa A",
   "s2_sub4": "Branding",
   "s2_nombre5": "Logo Empresa B",
@@ -54,7 +54,7 @@ LANG.es = {
   "s2_sub10": "Producto",
   // sección 3: web
   "s3_tag1": "<b>fetch</b>(\"/proyectos/web\");",
-  "s3_titulo2": "PÁGINAS<br/>WEB<span class=\"cur\"></span>",
+  "s3_titulo2": "DESARROLLO<span class=\"cur\"></span>",
   "s3_nombre3": "Cervecería Artesanal",
   "s3_sub4": "HTML · CSS · JS · galería y formularios",
   "s3_nombre5": "Joyería",

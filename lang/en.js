@@ -1,6 +1,6 @@
-window.LANG=window.LANG||{};
+window.LANG = window.LANG || {};
 /* English base translation. Copied from es.js, changed LANG.es to LANG.en and translated values. */
-LANG.en={
+LANG.en = {
   // navigation
   "nav1": "01_about_me",
   "nav2": "02_design",
@@ -9,7 +9,7 @@ LANG.en={
   // section 1: about_me
   "s1_tag1": "<b>const</b> dev = <b>\"Computer Scientist\"</b>;",
   "s1_titulo2": "DANIEL<br/>PÉREZ<br/>ARANDIA<span class=\"cur\"></span>",
-  "s1_texto3": "Computer Science (Senior year, UMSA) · Software developer and systems architect. Bilingual, awarded \"Golden Teacher\" 2026. Co-founder of digital projects focused on leadership, marketing, and sales.",
+  "s1_texto3": "Computer Science · Software developer and systems architect. Bilingual, awarded \"Golden Teacher\" 2026. Co-founder of digital projects focused on leadership, marketing, and sales.",
   "s1_idioma4": "Spanish · native",
   "s1_idioma5": "English · advanced",
   "s1_idioma6": "Italian · basic",
@@ -43,7 +43,7 @@ LANG.en={
   "s1_desc34": "Excellence in teaching.",
   // section 2: design
   "s2_tag1": "<b>import</b> design <b>from</b> \"./graphic\";",
-  "s2_titulo2": "GRAPHIC<br/>DESIGN<span class=\"cur\"></span>",
+  "s2_titulo2": "DESIGN<span class=\"cur\"></span>",
   "s2_nombre3": "Company A Logo",
   "s2_sub4": "Branding",
   "s2_nombre5": "Company B Logo",
@@ -54,7 +54,7 @@ LANG.en={
   "s2_sub10": "Product",
   // section 3: web
   "s3_tag1": "<b>fetch</b>(\"/projects/web\");",
-  "s3_titulo2": "WEB<br/>PAGES<span class=\"cur\"></span>",
+  "s3_titulo2": "DEVELOPMENT<span class=\"cur\"></span>",
   "s3_nombre3": "Craft Brewery",
   "s3_sub4": "HTML · CSS · JS · gallery & forms",
   "s3_nombre5": "Jewelry",
